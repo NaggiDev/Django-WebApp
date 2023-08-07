@@ -1,0 +1,24 @@
+{% load static %}
+
+<html>
+
+<head>
+
+    <title>My Site</title>
+
+    <!-- Tailwind -->
+    <link rel="stylesheet" href="{% static 'css/custom_tailwind.css' %}">
+
+    <!-- Flowbite  -->
+    <script src="{% static 'js/flowbite.js' %}"></script>
+
+</head>
+
+<body>
+
+    {% block content %}
+    {% endblock %}
+
+</body>
+
+</html>

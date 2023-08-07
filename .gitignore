@@ -1,0 +1,29 @@
+# Comments start with a hash symbol
+
+# Ignore compiled Python files and bytecode
+*.pyc
+__pycache__/
+
+# Ignore log files
+*.log
+
+# Ignore virtual environment files
+venv/
+env/
+*.env
+.venv/
+
+# Ignore package build and distribution directories
+dist/
+build/
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+
+# Ignore OS and editor temporary files
+Thumbs.db
+.DS_Store
+
+#Ignore node module files
+node_modules/
