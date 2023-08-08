@@ -27,3 +27,6 @@ Thumbs.db
 
 #Ignore node module files
 node_modules/
+
+#docker ignore
+.dockerignore
